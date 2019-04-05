@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="iptv" name="IPTV" version="0.0.2" provider-name="BigRedJim">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/BigRedJim/iptv/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/BigRedJim/iptv/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/BigRedJim/iptv/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>iptv</summary>
+        <description>All your IPTV addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
