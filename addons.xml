@@ -122,7 +122,7 @@
 
 <addon id="plugin.video.gehosting"
        name="[COLOR orange]Global[/COLOR][COLOR green]Entertainment[/COLOR]"
-       version="6.5"
+       version="6.6"
        provider-name="Global Entertainment">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
