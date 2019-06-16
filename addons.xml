@@ -120,10 +120,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.gehosting"
-       name="[COLOR orange]Global[/COLOR][COLOR green]Entertainment[/COLOR]"
-       version="6.6"
-       provider-name="Global Entertainment">
+<addon id="plugin.video.globalv2" name="Global" version="0.0.3" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -135,9 +132,9 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Global Entertainment</summary>
+    <summary lang="en">Global Addon</summary>
     <language>en</language>
-    <description lang="en">Global Entertainment - Supplier of Great Quality and Stable Streams</description>
+    <description lang="en">IPTV</description>
      <platform>all</platform>
   </extension>
 </addon>
