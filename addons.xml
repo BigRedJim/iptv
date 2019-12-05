@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.beamv2" name="Beam IPTV" version="0.1.1" provider-name="SteevieGee">
+<addon id="plugin.video.beamv2" name="Beam IPTV" version="0.1.2" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -107,7 +107,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.mammothv2" name="Mammoth" version="0.0.9" provider-name="SteevieGee">
+<addon id="plugin.video.mammothv2" name="Mammoth" version="0.1.0" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
