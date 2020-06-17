@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.beamv2" name="Beam IPTV" version="0.1.2" provider-name="SteevieGee">
+<addon id="plugin.video.beamv2" name="Beam IPTV" version="0.1.3" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cartelv2" name="Cartel" version="0.1.2" provider-name="SteevieGee">
+<addon id="plugin.video.cartelv2" name="Cartel" version="0.1.3" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -34,7 +34,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.eurasiav2" name="Eurasia IPTV" version="0.1.4" provider-name="SteevieGee">
+<addon id="plugin.video.eurasiav2" name="Eurasia IPTV" version="0.1.5" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -51,7 +51,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.globalv2" name="Global" version="0.1.2" provider-name="SteevieGee">
+<addon id="plugin.video.globalv2" name="Global" version="0.1.3" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -70,7 +70,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.gravityv2" name="Gravity IPTV" version="0.1.6" provider-name="SteevieGee">
+<addon id="plugin.video.gravityv2" name="Gravity IPTV" version="0.1.7" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -87,7 +87,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.insanityv2" name="Insanity" version="0.1.7" provider-name="SteevieGee">
+<addon id="plugin.video.insanityv2" name="Insanity" version="0.1.8" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -158,7 +158,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.mammothv2" name="Mammoth" version="0.1.0" provider-name="SteevieGee">
+<addon id="plugin.video.mammothv2" name="Mammoth" version="0.1.1" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -175,7 +175,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.marvelv2" name="Marvel" version="0.1.5" provider-name="SteevieGee">
+<addon id="plugin.video.marvelv2" name="Marvel" version="0.1.6" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -192,24 +192,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.maximumv2" name="Maximum IPTV" version="0.1.3" provider-name="SteevieGee">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Maximum Addon</summary>
-    <language>en</language>
-    <description lang="en">IPTV and VOD</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.missilev2" name="Missile IPTV" version="0.1.5" provider-name="SteevieGee">
+<addon id="plugin.video.missilev2" name="Missile IPTV" version="0.1.6" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -244,7 +227,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.redstreamsv2" name="Redstreams IPTV" version="0.1.1" provider-name="SteevieGee">
+<addon id="plugin.video.redstreamsv2" name="Redstreams IPTV" version="0.1.2" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -261,7 +244,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.sniperv2" name="Sniper" version="0.1.5" provider-name="SteevieGee">
+<addon id="plugin.video.sniperv2" name="Sniper" version="0.1.6" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -278,7 +261,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.spaceyzv2" name="SpaceYZ" version="0.1.5" provider-name="SteevieGee">
+<addon id="plugin.video.spaceyzv2" name="SpaceYZ" version="0.1.6" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -295,7 +278,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.titanv2" name="Titan" version="0.1.2" provider-name="SteevieGee">
+<addon id="plugin.video.titanv2" name="Titan" version="0.1.3" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -312,7 +295,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.tvobv2" name="TV Only Better" version="0.1.2" provider-name="SteevieGee">
+<addon id="plugin.video.tvobv2" name="TV Only Better" version="0.1.3" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -329,7 +312,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.ukcv2" name="UKCommission IPTV" version="0.0.9" provider-name="SteevieGee">
+<addon id="plugin.video.ukcv2" name="UKCommission IPTV" version="0.1.0" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -346,7 +329,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="plugin.video.vodv1" name="VOD" version="0.0.9" provider-name="SteevieGee">
+<addon id="plugin.video.vodv1" name="VOD" version="0.1.0" provider-name="SteevieGee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
