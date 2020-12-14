@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.beamv2" name="Beam IPTV" version="0.1.4" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Beam Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.beautvod" name="BeautVOD" version="0.1.0" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">VOD Addon</summary>
+    <language>en</language>
+    <description lang="en">Video On Demand</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cartelv2" name="Cartel" version="0.1.6" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cartel Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.eurasiav2" name="Eurasia IPTV" version="0.1.5" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Eurasia Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.exodusv2" name="Exodus IPTV" version="0.1.5" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Exodus Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.gravityv2" name="Gravity IPTV" version="0.1.8" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Gravity Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.insanityv2" name="Insanity" version="0.2.1" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Insanity Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.lunarv2" name="Lunar" version="0.1.0" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Lunar Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mammothv2" name="Mammoth" version="0.1.3" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mammoth Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.maximumv2" name="Maximum IPTV" version="0.1.3" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maximum Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.newvod" name="VOD 2" version="0.1.5" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">VOD Addon</summary>
+    <language>en</language>
+    <description lang="en">Video On Demand</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.premv2" name="PremVOD" version="0.1.7" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PremVOD Addon</summary>
+    <language>en</language>
+    <description lang="en">VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.redsm3u" name="Reds M3U Reader" version="1.0.2" provider-name="StevvieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Private Addon</summary>
+    <summary lang="he">Private Addon</summary>
+    <description lang="en">Reds M3U Reader for IPTV</description>
+    <platform>all</platform>
+	<news>
+	</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.redsvod" name="RedsVOD" version="0.1.0" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">VOD Addon</summary>
+    <language>en</language>
+    <description lang="en">Video On Demand</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sandrav2" name="Apollo IPTV" version="0.1.7" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Apollo Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sniperv2" name="Sniper" version="0.1.6" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sniper Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.spaceyzv2" name="SpaceYZ AKA Bigstreamz" version="0.1.9" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SpaceYZ Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.titanv2" name="Titan" version="0.1.4" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Titan Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ukcv2" name="UKCommission IPTV" version="0.1.0" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">UKCommission Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="iptv" name="IPTV" version="0.0.4" provider-name="BigRedJim">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/BigRedJim/iptv/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/BigRedJim/iptv/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/BigRedJim/iptv/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>iptv</summary>
+        <description>All your IPTV addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.cosmicv2" name="Cosmic" version="0.1.0" provider-name="SteevieGee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cosmic Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+</addons>
