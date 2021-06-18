@@ -20,7 +20,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.sniperv3" name="Sniper" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.sniperv3" name="Sniper" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -40,7 +40,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.gravityv3" name="Gravity" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.gravityv3" name="Gravity" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -60,7 +60,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.insanityv3" name="Insanity" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.insanityv3" name="Insanity" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -80,7 +80,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.maxv3" name="Maximum" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.maxv3" name="Maximum" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -100,7 +100,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.bigv3" name="Bigstreamz" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.bigv3" name="Bigstreamz" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -120,7 +120,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.exodusv3" name="Exodus" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.exodusv3" name="Exodus" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -140,7 +140,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.beamv3" name="Beam" version="0.0.6" provider-name="SteevieGee">
+<addon id="plugin.video.beamv3" name="Beam" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -160,7 +160,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.marvelv3" name="Marvel" version="0.0.5" provider-name="SteevieGee">
+<addon id="plugin.video.marvelv3" name="Marvel" version="0.0.7" provider-name="SteevieGee">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.requests" />
@@ -172,6 +172,46 @@
     <summary lang="en">Marvel Addon</summary>
     <language>en</language>
     <description lang="en">IPTV and VOD for Kodi Matrix</description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.premv3" name="PremVOD" version="0.0.7" provider-name="SteevieGee">
+  <requires>
+	<import addon="xbmc.python" version="3.0.0" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PremVOD Addon</summary>
+    <language>en</language>
+    <description lang="en">VOD for Kodi Matrix</description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.fcv3" name="Fight Club VOD" version="0.0.7" provider-name="SteevieGee">
+  <requires>
+	<import addon="xbmc.python" version="3.0.0" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Fight Club Addon</summary>
+    <language>en</language>
+    <description lang="en">VOD for Kodi Matrix</description>
     <platform>all</platform>
     <assets>
         <icon>icon.png</icon>
